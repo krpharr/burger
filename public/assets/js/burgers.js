@@ -17,7 +17,10 @@ $(function() {
         }).then(
             function() {
                 console.log("yummy...");
-                location.reload();
+                $("#patrick").attr("src", "assets/img/patrick.gif");
+                setTimeout(function() {
+                    location.reload();
+                }, 1500);
             }
         );
     });
@@ -33,7 +36,11 @@ $(function() {
         }).then(
             function() {
                 console.log("created new burger");
-                location.reload();
+
+                $("#spongebob").attr("src", "assets/img/spongebob.gif");
+                setTimeout(function() {
+                    location.reload();
+                }, 1500);
             }
         );
     });
