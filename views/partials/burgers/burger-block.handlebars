@@ -1,11 +1,20 @@
 <li>
-	{{burger_name}}
-	{{#if devoured}}
-	
-	{{else}}
-	<button class="devour" data-id="{{id}}">
-		DEVOUR
-	</button>
-	{{/if}}
-	
+	<div style="display: flex; justify-content:space-between;">
+		<div class="col">
+			{{#if devoured}}
+				
+			{{else}}
+			<img src="assets/img/burger.sm.png">
+			{{/if}}
+		</div>
+		<div class="col">{{burger_name}}</div>
+		<div class="col">
+			{{#if devoured}}
+			{{else}}
+			<button class="devour" data-id="{{id}}">
+				DEVOUR
+			</button>
+			{{/if}}
+		</div>
+	</div>
 </li>

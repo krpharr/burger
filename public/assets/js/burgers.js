@@ -1,3 +1,13 @@
+let api_key = "L0CCC3SL";
+let query = `https://random-word-api.herokuapp.com/word?key=${api_key}&number=5`;
+
+$.ajax(query, {
+    type: "GET"
+}).then(function(res) {
+    console.log(res);
+});
+
+
 $(function() {
     $(".devour").on("click", function(event) {
         var id = $(this).data("id");

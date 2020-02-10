@@ -1,6 +1,6 @@
-<container>
-    <div class="row" style="height: 100%">
-        <div class="col s12 m4 green accent-3">
+<div class="container">
+    <div class="row" style="display: flex; justify-content:space-around;">
+        <div class="col s12 m4 green accent-3 main-col">
             <ul>
             {{#each burgers}}
                 {{#unless devoured}}
@@ -9,9 +9,12 @@
             {{/each}}
             </ul>
         </div>
-        <div class="col s12 m4 yellow accent-2">
+        <div class="col s12 m4 yellow accent-2 main-col">
             <img src="assets/img/burger.png" width="100%">
             <h2>Build A Burger</h2>
+            <div id="menu-ID">
+
+            </div>
             <form class="create-form">
                 <div class="form-group">
                     <label for="new-burger">Burger Name:</label>
@@ -24,7 +27,11 @@
         
             </form>
         </div>
-        <div class="col s12 m4 green accent-3">
+        <div class="col s12 m4 green accent-3 main-col">
+            <div class="header-img">
+                <img src="assets/img/patrick.gif" width="90%">
+            </div>
+            
             <ul>
             {{#each burgers}}
                 {{#if devoured}}
@@ -34,7 +41,7 @@
             </ul>
         </div>       
     </div>
-</container>
+</div>
 
 
 
