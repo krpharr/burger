@@ -14,7 +14,7 @@ body {
 .main-col {
     border-radius: 5px;
     margin: 32px 8px;
-    padding-bottom: 32px;
+    padding-bottom: 32px!important;
     min-width: 312px;
 }
 
