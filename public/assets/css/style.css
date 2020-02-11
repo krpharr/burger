@@ -43,3 +43,9 @@ li {
 li img {
     height: 50px;
 }
+
+.devour:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s ease-in-out;
+}
