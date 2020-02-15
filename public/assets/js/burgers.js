@@ -7,7 +7,6 @@ $.ajax(query, {
     console.log(res);
 });
 
-
 $(function() {
     $(".devour").on("click", function(event) {
         var id = $(this).data("id");
@@ -36,7 +35,6 @@ $(function() {
         }).then(
             function() {
                 console.log("created new burger");
-
                 $("#spongebob").attr("src", "assets/img/spongebob.gif");
                 setTimeout(function() {
                     location.reload();

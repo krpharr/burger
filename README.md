@@ -1,8 +1,14 @@
 # burger
+Virtually create and devour hamburger's online with this lovely Express/MySql application. 
+![alt text](public/assets/img/burger.gif "Logo Title Text 1")
 
+## dependencies
 
-
-<a title="cartoon hamburger png - cheese burger clip art PNG image with transparent background@toppng.com" href="https://toppng.com/cartoon-hamburger-png-cheese-burger-clip-art-PNG-free-PNG-Images_204144" target="_blank">cartoon hamburger png - cheese burger clip art PNG image with transparent background@toppng.com</a>
-
-random-word-api.herokuapp.com
-Random word API
+<ul>
+<li>NodeJS</li>
+<li>NPM</li>
+<li>MySql</li>
+<li>Express</li>
+<li>Handlebars</li>
+<li>ORM</li>
+</ul>
